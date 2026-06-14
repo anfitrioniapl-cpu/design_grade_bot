@@ -33,7 +33,7 @@ from questions import MAX_SCORE, QUESTIONS, get_grade
 
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8978364388:AAE2D6qHX2o5YUAC3WhJdcf5e6Hf61e5MQ0")
 CHANNEL = os.getenv("CHANNEL", "@alinuchka")
 CHANNEL_URL = f"https://t.me/{CHANNEL.lstrip('@')}"
 
